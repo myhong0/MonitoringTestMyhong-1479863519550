@@ -1,0 +1,12 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 640M
+  instances: 1
+  domain: mybluemix.net
+  name: MonitoringTestMyhong
+  host: MonitoringTestMyhong
+  disk_quota: 1024M
+  services:
+  - MonitoringTestMyhong-cloudantNoSQLDB
+  - Monitoring and Analytics-h6
+  - availability-monitoring-auto
