@@ -3,8 +3,8 @@ applications:
   memory: 640M
   instances: 1
   domain: mybluemix.net
-  name: MonitoringTestMyhong
-  host: MonitoringTestMyhong
+  name: DevConnect-DevOps-Demo
+  host: DevConnect-DevOps-Demo
   disk_quota: 1024M
   services:
   - MonitoringTestMyhong-cloudantNoSQLDB
